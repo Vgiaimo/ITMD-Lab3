@@ -218,3 +218,76 @@ textarea {
   font: inherit; /* 2 */
 }
 
+
+
+/* Vince Giaimo CSS*/
+
+/*CLEARFLOATS OF the CHILDREN*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+/*CLEARFLOATS of the CHILDREN*/
+
+Body{
+  background:gray;
+  text-align: center;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#JoinNow{
+  color: #66ff33;
+}
+
+
+.Info{
+  background: white;
+
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  
+}
+
+@media screen and (min-width: 480px){
+
+
+.title {
+  font-size: 4em;
+}
+
+#JoinNow{
+  font-size: 2em;
+}
+
+legend {
+  font-size: 30px;
+}
+
+label {
+  font-size: 20px;
+}
+
+}
+
+
+
